@@ -39,7 +39,7 @@ public class ShapeOne {
     @Produces(MediaType.TEXT_PLAIN)
     public String getXml() {
         //TODO return proper representation object
-        return "bonjour";
+        return "bonjour hassan";
     }
 
 }
