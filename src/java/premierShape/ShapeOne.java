@@ -36,18 +36,10 @@ public class ShapeOne {
      * @return an instance of java.lang.String
      */
     @GET
-    @Produces(MediaType.APPLICATION_XML)
+    @Produces(MediaType.TEXT_PLAIN)
     public String getXml() {
         //TODO return proper representation object
-        throw new UnsupportedOperationException();
+        return "bonjour";
     }
 
-    /**
-     * PUT method for updating or creating an instance of ShapeOne
-     * @param content representation for the resource
-     */
-    @PUT
-    @Consumes(MediaType.APPLICATION_XML)
-    public void putXml(String content) {
-    }
 }
